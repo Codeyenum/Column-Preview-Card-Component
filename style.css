@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root{
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+
+    /* (paragraphs) */
+    --Transparent_white: hsla(0, 0%, 100%, 0.75);
+
+    /* (background, headings, buttons) */
+    --Very_light_gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.background {
+    width: 100vw;
+    background-color: var(--Very_light_gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--Very_light_gray);
+}
+
+.container {
+    margin: 4em 0;
+}
+
+.icon {
+    width: 50px;
+}
+
+.component-container {
+    height: 475px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    padding: 3.2em;
+    font-family: 'Lexend Deca';
+}
+
+.component-container h1{
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.7em 0;
+}
+
+.component-container p {
+    line-height: 2em;
+}
+
+.component-container div {
+    background-color: var(--Very_light_gray);
+    text-align: center;
+    padding: 1.1em 0.6em;
+    width: 150px;
+    border-radius: 30px;
+    margin: 2em 0;
+}
+
+.sedan {
+    background-color: var(--Bright_orange);
+    border-radius: 10px 10px 0 0;
+}
+
+.suv {
+    background-color: var(--Dark_cyan);
+}
+
+.luxury {
+    background-color: var(--Very_dark_cyan);
+    border-radius: 0 0 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sedan div {
+    color: var(--Bright_orange);
+}
+
+.suv div {
+    color: var(--Dark_cyan);
+}
+
+.luxury div {
+    color: var(--Very_dark_cyan);
+}
+
+.component-container div:hover {
+    border: 3px solid var(--Very_light_gray);
+    color: var(--Very_light_gray);
+    background-color: transparent;
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sedan {
+        background-color: var(--Bright_orange);
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .suv {
+        background-color: var(--Dark_cyan);
+    }
+    
+    .luxury {
+        background-color: var(--Very_dark_cyan);
+        border-radius: 0 10px 10px 0;
+    }
+    
+}
