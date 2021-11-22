@@ -34,7 +34,7 @@
 }
 
 .icon {
-    width: 50px;
+    width: 65px;
 }
 
 .component-container {
@@ -58,13 +58,17 @@
     line-height: 2em;
 }
 
-.component-container div {
+.component-container button {
     background-color: var(--Very_light_gray);
-    text-align: center;
-    padding: 1.1em 0.6em;
+    border: 3px solid var(--Very_light_gray);
+    border-radius: 100vh;   
     width: 150px;
-    border-radius: 30px;
-    margin: 2em 0;
+    padding: 1em 0.6em;
+    margin: 2em 0; 
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    text-align: center;
+
 }
 
 .sedan {
@@ -81,24 +85,19 @@
     border-radius: 0 0 10px 10px;
 }
 
-a {
-    text-decoration: none;
-}
-
-.sedan div {
+.sedan button {
     color: var(--Bright_orange);
 }
 
-.suv div {
+.suv button {
     color: var(--Dark_cyan);
 }
 
-.luxury div {
+.luxury button {
     color: var(--Very_dark_cyan);
 }
 
-.component-container div:hover {
-    border: 3px solid var(--Very_light_gray);
+button:hover {
     color: var(--Very_light_gray);
     background-color: transparent;
 }
@@ -107,6 +106,14 @@ a {
     .container {
         display: flex;
         flex-direction: row;
+    }
+
+    .component-container {
+        height: 550px;
+    }
+
+    .component-container p {
+        margin-bottom: 60px;
     }
 
     .sedan {
