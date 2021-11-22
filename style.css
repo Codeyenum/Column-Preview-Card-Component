@@ -64,7 +64,7 @@
     border-radius: 100vh;   
     width: 150px;
     padding: 1em 0.6em;
-    margin: 2em 0; 
+    margin: 1.8em 0; 
     font-family: 'Lexend Deca';
     font-weight: 400;
     text-align: center;
@@ -102,7 +102,7 @@ button:hover {
     background-color: transparent;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1020px) {
     .container {
         display: flex;
         flex-direction: row;
