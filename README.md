@@ -51,7 +51,8 @@ Users should be able to:
 
 ## Author
 
-- Github - [Abanum Olise](https://github.com/Codeyenum/)
+Abanum Oliseyenum
+- Github - [Codeyenum](https://github.com/Codeyenum/)
 - Frontend Mentor - [@Codeyenum](https://www.frontendmentor.io/profile/codeyenum)
 - Twitter - [@Olise_the_dev](https://www.twitter.com/Olise_the_dev)
 
