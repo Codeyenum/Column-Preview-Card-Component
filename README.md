@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Codeyenum Column-Preview-Card-Component](https://github.com/Codeyenum/Column-Preview-Card-Component)
+- Solution URL: [Codeyenum Column-Preview-Card-Component](https://www.frontendmentor.io/solutions/3column-preview-card-component-rk5XI_hr9)
 - Live Site URL: [Column-Preview-Card-Component](https://mycolumncardpreview.netlify.app/)
 
 ## My process
